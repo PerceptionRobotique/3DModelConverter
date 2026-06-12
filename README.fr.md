@@ -31,6 +31,9 @@ Pour garantir des performances optimales, les fichiers PTS doivent respecter le 
 - Une ligne par point : `X Y Z Intensity R G B`  
 - L’intensité doit être un entier compris entre **-2000 et 2000** pour une bonne visualisation dans ESILab
 
+
+Télécharger des exemples de ['fichiers PTS`](https://extra.u-picardie.fr/nextcloud/index.php/s/mJbjbPCqEjPc9k7)
+
 ---
 
 ## ℹ️ À propos

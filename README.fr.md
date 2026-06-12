@@ -6,7 +6,7 @@ Ce format est nécessaire pour visualiser des nuages de points dans le logiciel 
 
 ## ⚙️ Installation Windows
 
-1. Télécharger [`3DModelConverter_Setup.exe`](https://github.com/PerceptionRobotique/3DModelConverter/releases/latest/download/3DModelConverter_Setup.exe)
+1. Télécharger [`3DModelConverter_Setup.exe`](https://github.com/PerceptionRobotique/3DModelConverter/releases/download/latest/3DModelConverter_Setup.exe)
 2. Lancer l’installateur depuis le dossier Téléchargements  
    - Si un avertissement de sécurité Windows apparaît, cliquer sur **“Plus d’informations”**, puis **“Exécuter quand même”**
 3. Suivre l’assistant d’installation

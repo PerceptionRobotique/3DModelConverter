@@ -6,7 +6,7 @@ This format is required for visualizing point clouds using the [ESILab](https://
 
 ## ⚙️ Installation Windows
 
-1. Download [`3DModelConverter_Setup.exe`](https://github.com/PerceptionRobotique/3DModelConverter/releases/latest/download/3DModelConverter_Setup.exe)
+1. Download [`3DModelConverter_Setup.exe`](https://github.com/PerceptionRobotique/3DModelConverter/releases/download/latest/3DModelConverter_Setup.exe)
 2. Run the installer from your Downloads folder  
    - If a Windows security warning appears, click **“More info”** then **“Run anyway”**
 3. Follow the installation wizard

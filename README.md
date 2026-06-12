@@ -31,7 +31,7 @@ To ensure optimal performance, PTS files must follow this format:
 - One point per line: `X Y Z Intensity R G B`  
 - Intensity must be an integer between **-2000 and 2000** for correct visualization in ESILab
 
-Download sample [`PTS files`] (https://extra.u-picardie.fr/nextcloud/index.php/s/mJbjbPCqEjPc9k7)
+Download sample [`PTS files`](https://extra.u-picardie.fr/nextcloud/index.php/s/mJbjbPCqEjPc9k7)
 
 ---
 

@@ -1,20 +1,20 @@
 ---
-name: Rapport de bug
-about: Signaler un problème
+name: Bug report
+about: Report an issue
 title: "[BUG] "
 labels: bug
 ---
 
-## Description du bug
-Décris le problème ici
+## Bug description
+Describe the issue here
 
-## Étapes pour reproduire
+## Steps to reproduce
 1. ...
 2. ...
 3. ...
 
-## Comportement attendu
-Ce qui devrait se passer
+## Expected behavior
+What should happen
 
-## Capture d'écran
-(si applicable)
+## Screenshot
+(if applicable)

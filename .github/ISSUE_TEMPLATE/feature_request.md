@@ -1,10 +1,10 @@
 ---
-name: Demande de fonctionnalité
-about: Proposer une amélioration
+name: Feature request
+about: Suggest an improvement
 ---
 
-## Idée
-Décris ta suggestion
+## Idea
+Describe your suggestion
 
-## Pourquoi ?
-Quel problème ça résout ?
+## Why?
+What problem does it solve?

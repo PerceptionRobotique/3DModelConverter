@@ -35,6 +35,10 @@ de l’**UPJV (Université de Picardie Jules Verne)**.
 
 👉 https://www.mis.u-picardie.fr/
 
+Cette application est un logiciel propriétaire.
+Les composants tiers — Qt (LGPL v3), Boost et PCL — sont distribués sous leurs licences respectives.
+Voir le fichier THIRD_PARTY_LICENSES.txt pour plus de détails.
+
 ## 🛠️ Support & maintenance
 
 Pour toute demande de support technique, veuillez contacter :  
@@ -43,3 +47,22 @@ Pour toute demande de support technique, veuillez contacter :
 ## 📦 Versions
 
 👉 [Voir toutes les versions](https://github.com/PerceptionRobotique/3DModelConverter/releases)
+
+## Bibliothèques tierces
+
+Ce logiciel utilise les composants tiers suivants :
+
+- Qt (LGPL v3)
+- Boost (Boost Software License 1.0)
+- PCL - Point Cloud Library (BSD 3-Clause)
+
+Ces composants sont soumis à leurs propres licences.
+
+Voir THIRD_PARTY_LICENSES.txt pour plus de détails.
+
+
+### Conformité Qt
+
+Cette application utilise Qt sous licence LGPL.
+
+Les utilisateurs sont autorisés à remplacer ou modifier cette bibliothèque et à relier l’application en conséquence, conformément aux exigences de la LGPL.

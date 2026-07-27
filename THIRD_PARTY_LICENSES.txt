@@ -29,3 +29,16 @@ https://www.boost.org/LICENSE_1_0.txt
 Point Cloud Library (BSD 3-Clause)
 ------------------------------------------------------------
 https://pointclouds.org
+
+------------------------------------------------------------
+PDAL (BSD 3-Clause License)
+------------------------------------------------------------
+This application uses the Point Data Abstraction Library (PDAL).
+
+PDAL is distributed under the BSD 3-Clause License.
+
+Project:
+https://pdal.io/
+
+License:
+https://github.com/PDAL/PDAL/blob/master/LICENSE.txt

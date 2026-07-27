@@ -55,6 +55,7 @@ Ce logiciel utilise les composants tiers suivants :
 - Qt (LGPL v3)
 - Boost (Boost Software License 1.0)
 - PCL - Point Cloud Library (BSD 3-Clause)
+- PDAL (BSD 3-Clause)
 
 Ces composants sont soumis à leurs propres licences.
 

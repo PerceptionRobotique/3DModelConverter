@@ -56,6 +56,7 @@ Ce logiciel utilise les composants tiers suivants :
 - Boost (Boost Software License 1.0)
 - PCL - Point Cloud Library (BSD 3-Clause)
 - PDAL (BSD 3-Clause)
+- libE57Format (Boost Software License 1.0)
 
 Ces composants sont soumis à leurs propres licences.
 

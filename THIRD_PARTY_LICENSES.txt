@@ -42,3 +42,16 @@ https://pdal.io/
 
 License:
 https://github.com/PDAL/PDAL/blob/master/LICENSE.txt
+
+------------------------------------------------------------
+libE57Format (Boost Software License 1.0)
+------------------------------------------------------------
+This application uses libE57Format for reading E57 point cloud files.
+
+libE57Format is distributed under the Boost Software License 1.0.
+
+Project:
+https://github.com/asmaloney/libE57Format
+
+License:
+https://www.boost.org/LICENSE_1_0.txt

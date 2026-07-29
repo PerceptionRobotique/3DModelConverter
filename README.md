@@ -1,7 +1,7 @@
 # 3DModelConverter
 🇫🇷 Version française : [README.fr.md](README.fr.md)
 
-3DModelConverter allows you to convert point cloud files in **PTS format** into **OCTI format**.  
+3DModelConverter allows you to convert point cloud files in PTS, or in E57, or in LAS format into OCTI format.
 This format is required for visualizing point clouds using the [ESILab](https://github.com/PerceptionRobotique/ESILab) software.
 
 ## ⚙️ Installation Windows
@@ -26,6 +26,46 @@ To ensure optimal performance, PTS files must follow this format:
 - Intensity must be an integer between **-2000 and 2000** for correct visualization in ESILab
 
 Download sample [`PTS files`](https://extra.u-picardie.fr/nextcloud/index.php/s/mJbjbPCqEjPc9k7)
+
+## 📄 Recommended E57 file format
+
+The minimum required fields in an E57 file are:
+
+- `cartesianX`
+- `cartesianY`
+- `cartesianZ`
+
+The following optional fields are also supported:
+
+- `intensity`
+- `colorRed`
+- `colorGreen`
+- `colorBlue`
+
+If the optional fields are not present, the generated OCTI file will still be created, but intensity and/or color information will still be created using the default values.
+
+An E57 file may contain data from one or multiple scan stations. All scan stations present in the file will be imported and merged into a single OCTI point cloud. 
+
+For each scan station, the transformation defined in the E57 file (including rotation and translation) is applied to all points before merging the stations. This ensures that all scans are expressed in the same global coordinate system.
+
+## 📄 Recommended LAS file format
+
+The minimum required fields in a LAS file are:
+
+- `X`
+- `Y`
+- `Z`
+
+The following optional fields are also supported:
+
+- `Intensity`
+- `Red`
+- `Green`
+- `Blue`
+
+Intensity values stored in the LAS file (ranging from 0 to 65535) are automatically normalized to the interval **[-2000, 2000]** for optimal visualization in ESILab.
+
+If the optional fields are not present, the generated OCTI file will still be created, but intensity and/or color information will still be created using the default values.
 
 ## ℹ️ About
 

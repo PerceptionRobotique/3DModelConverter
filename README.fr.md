@@ -1,7 +1,7 @@
 # 3DModelConverter
 🇫🇷 English version: [README.md](README.md)
 
-3DModelConverter permet de convertir des fichiers de nuages de points au format **PTS** vers le format **OCTI**.  
+3DModelConverter permet de convertir des fichiers de nuages de points aux formats PTS, E57 ou LAS vers le format OCTI.
 Ce format est nécessaire pour visualiser des nuages de points dans le logiciel [ESILab](https://github.com/PerceptionRobotique/ESILab).
 
 ## ⚙️ Installation Windows
@@ -27,6 +27,45 @@ Pour garantir des performances optimales, les fichiers PTS doivent respecter le 
 - L’intensité doit être un entier compris entre **-2000 et 2000** pour une bonne visualisation dans ESILab
 
 Télécharger des exemples de [`fichiers PTS`](https://extra.u-picardie.fr/nextcloud/index.php/s/mJbjbPCqEjPc9k7)
+
+## 📄 Format recommandé des fichiers E57
+Les champs minimums requis dans un fichier E57 sont :
+
+- cartesianX
+- cartesianY
+- cartesianZ
+
+Les champs optionnels suivants sont également pris en charge :
+
+- intensity
+- colorRed
+- colorGreen
+- colorBlue
+
+Si les champs optionnels ne sont pas présents, le fichier OCTI sera tout de même généré. Les informations d'intensité et/ou de couleur seront alors remplacées par des valeurs par défaut.
+
+Un fichier E57 peut contenir les données d'une ou de plusieurs stations de numérisation. Toutes les stations présentes dans le fichier sont importées puis fusionnées dans un unique nuage de points OCTI.
+
+Pour chaque station, la transformation définie dans le fichier E57 (rotation et translation) est appliquée à l'ensemble des points avant la fusion des stations. Cela garantit que tous les scans sont exprimés dans le même système de coordonnées global.
+
+## 📄 Format recommandé des fichiers LAS
+Les champs minimums requis dans un fichier LAS sont :
+
+- X
+- Y
+- Z
+
+Les champs optionnels suivants sont également pris en charge :
+
+- Intensity
+- Red
+- Green
+- Blue
+
+Les valeurs d'intensité stockées dans le fichier LAS (comprises entre 0 et 65535) sont automatiquement normalisées dans l'intervalle [-2000 ; 2000] afin d'assurer une visualisation optimale dans ESILab.
+
+Si les champs optionnels ne sont pas présents, le fichier OCTI sera tout de même généré. Les informations d'intensité et/ou de couleur seront alors remplacées par des valeurs par défaut.
+
 
 ## ℹ️ À propos
 
